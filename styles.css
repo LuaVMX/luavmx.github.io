@@ -69,7 +69,7 @@ p {
 p a.link{
     text-decoration: none;
     color: rgb(110, 118, 129);
-    float: left;
+    float: center;
 }
 
 p a.floatleft{
