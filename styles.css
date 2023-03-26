@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: rgb(18, 18, 27);
+    background: transparent;
     background-size: 950px;
     padding: 30px 30px;
     font-size: 20px;
