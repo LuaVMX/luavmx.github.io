@@ -1,13 +1,15 @@
 body {
-    background: rgb(18, 18, 27);
+    background-image: url("images/background-gradient2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     color: white;
-    font-family: 'Roboto', sans-serif, Arial;
+    font-family: "Open Sans";
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: rgb(16, 16, 24);
     background-size: 950px;
     padding: 30px 30px;
     font-size: 20px;
@@ -16,11 +18,11 @@ header {
 }
 
 section {
-    background: rgb(13, 13, 19);
+    background: rgb(23, 23, 34);
     color: white;
     padding: 60px 30px;
     font-size: 20px;
-    width: 40%;
+    width: 50%;
     margin: 0 auto 0 auto;
     margin-top: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -81,6 +83,33 @@ p a.floatleft{
 }
 
 iframe {
+    aspect-ratio: 16/9;
+    height: auto;
+    width: 100%;
+}
+
+video {
+    aspect-ratio: 16/9;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav .navbutton {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+nav .navbutton:hover {
+    transform: scale(1.1);
+}
+
+.modellingimage {
     aspect-ratio: 16/9;
     height: auto;
     width: 100%;
