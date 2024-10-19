@@ -110,7 +110,6 @@ nav .navbutton:hover {
 }
 
 .modellingimage {
-    aspect-ratio: 16/9;
-    height: auto;
+    height: 100%;
     width: 100%;
 }
